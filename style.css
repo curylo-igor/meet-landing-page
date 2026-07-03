@@ -1,0 +1,240 @@
+:root {
+  --cyan-600: #4d96a9;
+  --cyan-300: #8fe3f9;
+  --purple-600: #855fb1;
+  --purple-300: #d9b8ff;
+  --slate-900: #28283d;
+  --slate-600: #87879d;
+  --slate-300: #d1d1df;
+  --white: #ffffff;
+  --spacing-1400: 112px;
+  --spacing-1000: 80px;
+  --spacing-900: 72px;
+  --spacing-800: 64px;
+  --spacing-700: 56px;
+  --spacing-600: 48px;
+  --spacing-500: 40px;
+  --spacing-400: 32px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
+}
+
+.text-preset-1 {
+  font-size: 64px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-weight: 900;
+}
+
+.text-preset-2 {
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-weight: 900;
+}
+
+.text-preset-3 {
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 4px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.text-preset-4 {
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.text-preset-5 {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 900;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white);
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+header {
+  margin-top: var(--spacing-800);
+  margin-bottom: calc(64px + 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+header h1 {
+  margin: var(--spacing-600) var(--spacing-500) var(--spacing-300);
+  color: var(--slate-900);
+}
+
+header p {
+  margin: 0 var(--spacing-300) var(--spacing-300);
+  color: var(--slate-600);
+}
+
+.logo-img {
+  margin-top: var(--spacing-600);
+  width: 118px;
+  height: 28px;
+}
+
+.hero-img {
+  width: 115%;
+}
+
+button {
+  border-radius: 29px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-cyan {
+  background-color: var(--cyan-600);
+  color: var(--white);
+  height: 56px;
+  width: 193px;
+  margin-bottom: var(--spacing-200);
+}
+
+.button-cyan span {
+  color: var(--cyan-300);
+}
+
+.button-cyan:hover {
+  background-color: #71c0d4;
+}
+
+.button-purple {
+  background-color: var(--purple-600);
+  color: var(--white);
+  height: 56px;
+  width: 161px;
+}
+
+.button-purple span {
+  color: var(--purple-300);
+}
+
+.button-purple:hover {
+  background-color: #b18bdd;
+}
+
+.four-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: var(--spacing-200);
+  margin: var(--spacing-800) var(--spacing-400) 0;
+}
+
+main h4 {
+  margin-top: var(--spacing-800);
+  color: var(--cyan-600);
+}
+
+main h3 {
+  margin: var(--spacing-200) var(--spacing-400) var(--spacing-400);
+  color: var(--slate-900);
+}
+
+main p {
+  color: var(--slate-600);
+  margin: 0 var(--spacing-400) calc(64px + 80px);
+}
+
+.four-images img {
+  border-radius: 8%;
+  width: 100%;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+.caption-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: var(--slate-300) solid 1px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: -28px;
+  color: var(--slate-600);
+}
+
+.caption-circle::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 80px;
+  background-color: var(--slate-300);
+  bottom: 100%;
+}
+
+footer {
+  background-image:
+    linear-gradient(rgba(77, 150, 169, 0.8), rgba(77, 150, 169, 0.8)),
+    url(./assets/mobile/image-footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: var(--spacing-800) var(--spacing-400);
+}
+
+footer h3,
+p {
+  color: var(--white);
+  margin-bottom: var(--spacing-300);
+}
+
+@media (max-width: 767px) {
+  .text-preset-1 {
+    font-size: 40px;
+  }
+
+  .text-preset-3 {
+    font-size: 12px;
+  }
+
+  .text-preset-2 {
+    font-size: 32px;
+  }
+
+  .text-preset-4 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .text-preset-5 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}

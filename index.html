@@ -1,31 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Download v1.3
-  What is it?
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
 
-  01
-  Built for modern use
+    <link rel="stylesheet" href="style.css" />
 
-  Smarter meetings, all in one place
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/logo.svg" class="logo-img" />
+    </nav>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
+    <header>
+      <img src="./assets/tablet/image-hero.png" class="hero-img" />
+      <h1 class="text-preset-1">Group Chat for Everyone</h1>
+      <p class="text-preset-4">
+        Meet makes it easy to connect with others face-to-face virtually and
+        collaborate across any device.
+      </p>
 
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+      <button class="button-cyan text-preset-5">
+        Download <span>v1.3</span>
+      </button>
+      <button class="button-purple text-preset-5">What is it?</button>
+    </header>
 
-  Download v1.3
-</body>
+    <main>
+      <div class="caption-circle text-preset-5">01</div>
+
+      <div class="four-images">
+        <img
+          src="./assets/desktop/image-woman-in-videocall.jpg"
+          alt="Woman in videocall"
+        />
+        <img
+          src="./assets/desktop/image-women-videochatting.jpg"
+          alt="Women videochatting"
+        />
+        <img
+          src="./assets/desktop/image-men-in-meeting.jpg"
+          alt="Men in meeting"
+        />
+        <img src="./assets/desktop/image-man-texting.jpg" alt="Man texting" />
+      </div>
+      <h4 class="text-preset-3">Built for modern use</h4>
+      <h3 class="text-preset-2">Smarter meetings, all in one place</h3>
+      <p class="text-preset-4">
+        Send messages, share files, show your screen, and record your meetings —
+        all in one workspace. Control who can join with invite-only team access,
+        data encryption, and data export.
+      </p>
+
+      <div class="caption-circle text-preset-5">02</div>
+    </main>
+
+    <footer>
+      <h3 class="text-preset-2">Experience more together</h3>
+      <p class="text-preset-4">
+        Stay connected with reliable HD meetings and unlimited one-on-one and
+        group video sessions.
+      </p>
+      <button class="button-purple text-preset-5">
+        Download <span>v1.3</span>
+      </button>
+    </footer>
+  </body>
 </html>

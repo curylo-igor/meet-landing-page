@@ -339,6 +339,10 @@ footer p {
     width: 100%;
   }
 
+  .header-content {
+    margin: 0 var();
+  }
+
   .header-content p,
   .header-content h1 {
     width: 448px;
@@ -346,6 +350,17 @@ footer p {
 
   .header-content h1 {
     margin-top: var(--spacing-400);
+  }
+
+  .four-images {
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-bottom: 64px;
+    gap: var(--spacing-400);
+  }
+
+  main p {
+    margin-bottom: calc(72px + 80px);
   }
 
   footer {

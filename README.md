@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/curylo-igor/meet-landing-page)
-- Live Site URL: [Add live site URL here](https://curylo-igor.github.io/meet-landing-page/)
+- Solution URL: [https://github.com/curylo-igor/meet-landing-page](https://github.com/curylo-igor/meet-landing-page)
+- Live Site URL: [https://curylo-igor.github.io/meet-landing-page/](https://curylo-igor.github.io/meet-landing-page/)
 
 ## My process
 
